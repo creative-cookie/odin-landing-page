@@ -154,3 +154,28 @@ h2{
     color: #1F2937;
     margin-bottom: 3.125rem;
 }
+
+.quote .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 775px;
+}
+
+.quote{
+    background: #e5e7eb;
+    padding: 7em 0;
+}
+
+.quote-text{
+    font-size: 2.25rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author{
+    font-weight: 700;
+    color: #1F2937;
+    margin-left: auto;
+    font-size: 1.5rem;
+}
