@@ -1,8 +1,22 @@
-body, h1, h2, ul, p{
-    margin: 0;
-    padding: 0;
+/*----------------------*/
+/*Reset                 */
+/*----------------------*/
+*{
     box-sizing: border-box;
 }
+body, h1, h2, ul, p{
+    margin: 0;
+}
+
+body{
+    line-height: 1.5;
+}
+
+button{
+    font: inherit;
+}
+
+
 
 body{
     font-family: 'Roboto', Arial, sans-serif;
