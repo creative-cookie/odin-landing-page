@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    padding: 1em;
+    padding: 1em 0;
 }
 
 header,
@@ -210,4 +210,11 @@ h2{
 .cta-sign-up-btn:focus{
     background-color: hsl(217, 91%, 40%);
     border-color: hsl(217, 91%, 40%);
+}
+
+footer{
+    padding: 2em;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    text-align: center;
 }
