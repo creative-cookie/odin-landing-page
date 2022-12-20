@@ -67,7 +67,7 @@ ul{
 }
 
 .hero{
-    padding: 4em 0;
+    padding: 6em 0;
 }
 
 .hero-info{
@@ -90,16 +90,17 @@ h1{
 
 .img-placeholder-lg{
     flex: 1;
-    background-color: #e5e7eb;
+    background-color: #777;
     padding: 4em;
     align-self: stretch;
-    color: #1F2937;
+    color: #e5e7eb;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.hero-info .sign-up{
+.hero-info .sign-up-btn,
+.cta-sign-up-btn{
     padding: .5em 1.875em;
     color: inherit;
     background-color: #3882f6;
@@ -110,8 +111,8 @@ h1{
     cursor: pointer;
 }
 
-.hero-info .sign-up:hover,
-.hero-info .sign-up:focus{
+.hero-info .sign-up-btn:hover,
+.hero-info .sign-up-btn:focus{
     background-color: hsl(217, 91%, 40%);
 }
 
@@ -178,4 +179,35 @@ h2{
     color: #1F2937;
     margin-left: auto;
     font-size: 1.5rem;
+}
+
+.cta .container{
+    background-color: #3882f6;
+    margin: 6em auto;
+    padding: 2.5em 3.5em;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-inner-container{
+    display: flex;
+    justify-content: space-between;
+    color: #e5e7eb;
+    width: 775px;
+}
+
+.cta-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.cta-sign-up-btn{
+    border: 2px solid #e5e7eb;
+}
+
+.cta-sign-up-btn:hover,
+.cta-sign-up-btn:focus{
+    background-color: hsl(217, 91%, 40%);
+    border-color: hsl(217, 91%, 40%);
 }
