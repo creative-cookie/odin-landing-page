@@ -17,3 +17,6 @@ While I was able to achieve the desired layout fairly easily, I wasn't satisfied
 * HTML
 * Markdown
 * VSCode
+
+## Live Demo
+[View Live Demo](https://creative-cookie.github.io/odin-landing-page/)
