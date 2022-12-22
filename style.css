@@ -132,6 +132,10 @@ a {
 .text-dark { color: var(--clr-dark); }
 .text-light { color: var(--clr-light); }
 
+/* border */
+.br-sm { border-radius: var(--br-sm); }
+.br-lg { border-radius: var(--br-lg); }
+
 /*----------------------*/
 /* Components           */
 /*----------------------*/
@@ -183,8 +187,7 @@ h2{
     background-color: var(--clr-med);
 }
 
-/* Hero */
-
+/* --- Hero --- */
 .img-placeholder-lg{
     justify-content: center;
     flex-basis: 100%;
@@ -192,217 +195,21 @@ h2{
     background-color: #6d747d;
 }
 
-/* body{
-    font-family: 'Roboto', Arial, sans-serif;
-    color: #333;
-} 
-
-header{
-    padding: 1em 0;
-}
-
-header,
-.hero{
-    background-color: #1F2937;
-    color: #f9faf8;
-}
-
-.container{
-    max-width: 1024px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-}
-
-.main-nav{
-    margin-left: auto;
-}
-
-.main-menu{
-    display: flex;
-    column-gap: 1.5em;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.logo a{
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
-.logo a,
-.main-menu li a{
-    color: inherit;
-    text-decoration: none;
-}
-
-
-ul{
-    list-style-type: none;
-}
-
-.main-menu li a{
-    font-size: 1.125rem;
-}
-
-.main-menu li a:hover,
-.main-menu li a:focus{
-    text-decoration: underline;
-}
-
-.hero .container{
-    column-gap: 2em;
-}
-
-.hero{
-    padding: 6em 0;
-}
-
-.hero-info{
-    flex: 1;
-}
-
-h1{
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 1;
-    margin-bottom: .125em;
-}
-
-.hero-info p{
-    font-size: 1.125rem;
-    color: #e5e7eb;
-    line-height: 1.25;
-    margin-bottom: .5em;
-}
-
-.img-placeholder-lg{
-    flex: 1;
-    background-color: #777;
-    padding: 4em;
-    align-self: stretch;
-    color: #e5e7eb;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-info .sign-up-btn,
-.cta-sign-up-btn{
-    padding: .5em 1.875em;
-    color: inherit;
-    background-color: #3882f6;
-    border-style: none;
-    border-radius: 6px;
-    font-size: 1.125rem;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-.hero-info .sign-up-btn:hover,
-.hero-info .sign-up-btn:focus{
-    background-color: hsl(217, 91%, 40%);
-}
-
-.random .container{
-    flex-direction: column;
-    padding: 3.125em 0;
-}
-
-.box-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2.75em;
+/* --- Random Info --- */
+.random{
+    --py-4: 0;
+    padding-top: 3.5rem;
+    padding-bottom: 8.125rem;
 }
 
 .img-placeholder-sm{
-    width: 150px;
-    height: 150px;
-    border: 4px solid #3882f6;
-    border-radius: 12px;
-    margin-bottom: .5em;
+    margin: 0 auto;
+    width: 10rem;
+    height: 10rem;
+    border: 5px solid var(--clr-accent);
+    border-radius: var(--br-lg);
 }
 
-.box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+.info-boxes{
+    margin-top: 3.5rem;
 }
-
-.subtext{
-    width: 150px;
-    font-weight: 300;
-}
-
-h2{
-    font-size: 2.25rem;
-    font-weight: 900;
-    color: #1F2937;
-    margin-bottom: 3.125rem;
-}
-
-.quote .container{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 775px;
-}
-
-.quote{
-    background: #e5e7eb;
-    padding: 7em 0;
-}
-
-.quote-text{
-    font-size: 2.25rem;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.author{
-    font-weight: 700;
-    color: #1F2937;
-    margin-left: auto;
-    font-size: 1.5rem;
-}
-
-.cta .container{
-    background-color: #3882f6;
-    margin: 6em auto;
-    padding: 2.5em 3.5em;
-    border-radius: 12px;
-    justify-content: center;
-    align-items: center;
-}
-
-.cta-inner-container{
-    display: flex;
-    justify-content: space-between;
-    color: #e5e7eb;
-    width: 775px;
-}
-
-.cta-title{
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
-.cta-sign-up-btn{
-    border: 2px solid #e5e7eb;
-}
-
-.cta-sign-up-btn:hover,
-.cta-sign-up-btn:focus{
-    background-color: hsl(217, 91%, 40%);
-    border-color: hsl(217, 91%, 40%);
-}
-
-footer{
-    padding: 2em;
-    background-color: #1F2937;
-    color: #e5e7eb;
-    text-align: center;
-} */
