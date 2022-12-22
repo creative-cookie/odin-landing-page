@@ -1,13 +1,13 @@
 # Basic Landing Page
 
 ## Overview
-This basic landing page was created as part of The Odin Project's curriculum. It utilizes the HTML and CSS knowledge gained from the course so far.
+This basic landing page was created as part of The Odin Project's curriculum The objective was to re-create the given design utilizing the HTML and CSS knowledge gained from the course so far.
 
 ## Features
 The website features a basic landing page that utilizes Flexbox for its layout. Please note that it is not responsive.
 
 ## What I Learned
-While I was able to achieve the desired layout fairly easily, I wasn't satisfied with the organization I originally had in both the HTML and CSS files. As such, I researched ways that I could refactor the code to make it more manageable and organized. I learned about more efficient and organized approaches that included using custom properties, utility classes, and BEM. I then refactored my code to implement what I learned.
+While I was able to achieve the desired layout fairly easily, I wasn't satisfied with the organization I originally had in both the HTML and CSS files. As such, I researched ways that I could refactor the code to make it more manageable and organized. I learned about more efficient and organized approaches that included using custom properties, utility classes, and BEM. I then refactored my code to implement what I learned. While using such an approach may have been overkill for such a simple page, I believe it will prove to be good practice for more complex projects in the future.
 
 ## What I Used
 * Bash
