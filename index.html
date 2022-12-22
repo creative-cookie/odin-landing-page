@@ -11,11 +11,12 @@
     <title>The Odin Project - Landing Page Challenge</title>
 </head>
 <body>
-    <header class="primary-header bg-dark text-light">
-        <div class="container flex">
+    <!-- Header -->
+    <header class="primary-header bg-dark text-light py-1">
+        <div class="container container--lg flex">
             <div class="fs-500 fw-700"><a href="#">Header Logo</a></div>
             <nav class="main-nav">
-                <ul class="main-nav__menu flex">
+                <ul class="flex">
                     <li><a href="#">header link one</a></li>
                     <li><a href="#">header link two</a></li>
                     <li><a href="#">header link three</a></li>
@@ -24,20 +25,22 @@
         </div>
     </header>
     <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero-info">
+        <!-- Hero -->
+        <section class="hero bg-dark text-light py-4">
+            <div class="container container--lg flex" style="--gap:3rem">
+                <div class="flow">
                     <h1>This website is awesome</h1>
                     <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast.</p>
                     <button class="button">Sign up</button>
                 </div>
-                <div class="img-placeholder-lg"><p>this is a placeholder for an image</p></div>
+                <div class="img-placeholder-lg flex"><p>this is a placeholder for an image</p></div>
             </div>
         </section>
+        <!-- Random Info -->
         <section class="random">
-            <div class="container">
+            <div class="container container--sm">
                 <h2>Some random information</h2>
-                <div class="box-container">
+                <div class="flex">
                     <div class="box">
                         <div class="img-placeholder-sm"></div>
                         <p class="subtext">this is some subtext under an illustration or image</p>
@@ -57,24 +60,27 @@
                 </div>
             </div>
         </section>
-        <section class="quote">
-            <div class="container">
-                <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-                <p class="author">-Thor, God of Thunder</p>
+        <!-- Quote -->
+        <section class="bg-med py-4">
+            <div class="container container--sm">
+                <p class="fs-600 fst-italic fw-300">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+                <p class="text-dark fw-700 fs-500 text-right">-Thor, God of Thunder</p>
             </div>
         </section>
-        <section class="cta">
-            <div class="container">
-                <div class="cta-inner-container">
-                    <div class="cta-info">
-                        <p class="cta-title">Call to action! It's time!</p>
-                        <p class="cta-text">Sign up for our product by clicking that button right over there!</p>
+        <!-- Call To Action -->
+        <section class="cta py-3">
+            <div class="container container--lg bg-accent text-light py-2">
+                <div class="container container--sm flex">
+                    <div>
+                        <p class="fw-700 fs-500">Call to action! It's time!</p>
+                        <p>Sign up for our product by clicking that button right over there!</p>
                     </div>
                     <button class="button button--border">Sign up</button>
                 </div>
             </div>
         </section>
-        <footer><p>Copyright &copy; The Odin Project 2022</p></footer>
     </main>
+    <!-- Footer -->
+    <footer class="py-2 text-light bg-dark text-center"><p>Copyright &copy; The Odin Project 2022</p></footer>
 </body>
 </html>
